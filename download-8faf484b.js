@@ -1,0 +1,1 @@
+async function e(e){try{const t={fileName:e.fileName||"PWABuilderImages.zip",extensions:[".zip"],mimeTypes:["application/zip"]};if(e.blob){let i=document.createElement("a");i.href=URL.createObjectURL(e.blob),i.setAttribute("download",t.fileName),i.click()}}catch(e){console.error(e)}}export{e as d};
